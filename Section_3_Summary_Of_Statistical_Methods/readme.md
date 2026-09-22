@@ -11,13 +11,13 @@ The first notebook summarises the main methods available in `scipy.stats`. The r
 * Cumulative distribution functions
 * Quantile functions
 * Generating random samples
-* Normal, Student's t, chi-square, F, binomial, and Poisson distributions
+* Normal, Student's *t*-, *χ*²-, *F*-, binomial, and Poisson distributions
 * Continuous and discrete distribution parameters
 * One-sided and two-sided hypothesis tests
-* Calculating and interpreting p-values
+* Calculating and interpreting *p*-values
 * Constructing confidence intervals
-* Comparing conclusions obtained from critical values, p-values, and confidence intervals
-* Comparing two sample variances with an F-test
+* Comparing conclusions obtained from critical values, *p*-values, and confidence intervals
+* Comparing two sample variances with an *F*-test
 
 ## Notebooks
 
@@ -27,31 +27,31 @@ The first notebook summarises the main methods available in `scipy.stats`. The r
 
 This notebook introduces the unified interface used by distributions in `scipy.stats`.
 
-It demonstrates the following methods:
+It explains the following methods:
 
 * `pdf()` — probability density function for continuous distributions;
 * `pmf()` — probability mass function for discrete distributions;
 * `cdf()` — cumulative distribution function;
 * `ppf()` — quantile or inverse cumulative distribution function;
-* `rvs()` — random-variable generation.
+* `rvs()` — generating random values.
 
-The notebook also introduces the general principles of hypothesis testing for two-sided, left-sided, and right-sided alternatives. It explains how to calculate critical values, p-values, and confidence intervals.
+The notebook also introduces the general principles of hypothesis testing for two-sided and one-sided alternatives. It explains how to calculate critical values, *p*-values, and confidence intervals.
 
 ### 3.2.1 Testing a Mean Against a Theoretical Value
 
 [`Section_3_2_1_Detailed_Examples.ipynb`](Section_3_2_1_Detailed_Examples.ipynb)
 
-This notebook presents a one-sample hypothesis test for a population mean when the population variance is unknown.
+This notebook presents a two-sided hypothesis test for a population mean when the population variance is unknown.
 
-It demonstrates how to:
+It shows how to
 
 * calculate the sample mean and sample standard deviation;
 * formulate a two-sided hypothesis test;
-* calculate the Student's t-test statistic;
+* calculate the Student's *t*-test statistic;
 * determine the critical value;
 * calculate the corresponding p-value;
 * construct a 95% confidence interval;
-* compare the conclusions from the critical-value, p-value, and confidence-interval approaches.
+* compare the conclusions from the critical-value, *p*-value, and confidence-interval approaches.
 
 ### 3.2.2 Comparing Two Sample Variances
 
@@ -59,13 +59,13 @@ It demonstrates how to:
 
 This notebook compares the variability of product-quality measurements obtained using two drying options.
 
-It demonstrates how to:
+It shows how to
 
 * calculate unbiased sample variances;
 * formulate a one-sided test for two population variances;
-* construct an F-test statistic;
+* construct an *F*-test statistic;
 * determine the appropriate degrees of freedom;
-* calculate the corresponding p-value;
+* calculate the corresponding *p*-value;
 * interpret the result in the context of process selection.
 
 ## Running the Notebooks
