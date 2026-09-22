@@ -16,7 +16,7 @@ This section introduces the basic Python and NumPy concepts.
 
 ## Notebook
 
-The material for this section is contained in:
+The material for this section is contained in
 
 [`Section_1_Introduction.ipynb`](Section_1_Introduction.ipynb)
 
