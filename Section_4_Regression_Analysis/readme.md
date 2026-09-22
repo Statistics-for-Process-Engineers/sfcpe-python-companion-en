@@ -2,7 +2,7 @@
 
 This section introduces linear regression, weighted linear regression, nonlinear regression, regression diagnostics, and factorial experimental design in Python using **NumPy**, **SciPy**, and **Matplotlib**.
 
-The first notebook summarises the principal regression formulas and their Python implementations. The remaining notebooks apply these methods to worked examples involving parameter estimation, model evaluation, nonlinear optimisation, and factorial design.
+The first notebook summarises the principal regression formulae and their Python implementations. The remaining notebooks apply these methods to examples involving parameter estimation, model evaluation, nonlinear optimisation, and factorial design.
 
 ## Topics Covered
 
@@ -16,15 +16,15 @@ The first notebook summarises the principal regression formulas and their Python
 * Confidence intervals for model parameters
 * Confidence and prediction intervals for model outputs
 * Regression, error, and total sums of squares
-* Calculating (R^2) and adjusted (R^2)
-* Assessing overall model significance with an F-test
-* Checking regression assumptions using residual diagnostics
+* Calculating *R*² and adjusted *R*²
+* Assessing overall model significance with an *F*-test
+* Checking regression assumptions using residuals
 * Identifying and removing potential outliers
 * Numerical optimisation with `scipy.optimize.minimize`
 * Nonlinear fitting with `scipy.optimize.curve_fit`
-* Constructing factorial-design regression matrices
+* Constructing regression matrices for factorial design
 * Estimating main effects and interaction effects
-* Selecting significant model terms using normal probability plots and F-tests
+* Selecting significant model terms using normal probability plots and *F*-tests
 
 ## Notebooks
 
@@ -32,7 +32,7 @@ The first notebook summarises the principal regression formulas and their Python
 
 [`Section 4.1.1_ MATLAB Formulae Regression.ipynb`](Section%204.1.1_%20MATLAB%20Formulae%20Regression.ipynb)
 
-This notebook summarises the mathematical formulas and corresponding NumPy and SciPy methods used for:
+This notebook summarises the mathematical formulas and corresponding NumPy and SciPy methods used for
 
 * ordinary linear regression;
 * weighted linear regression;
@@ -40,8 +40,8 @@ This notebook summarises the mathematical formulas and corresponding NumPy and S
 * parameter confidence intervals;
 * mean-response and prediction intervals;
 * sums of squares;
-* F-tests;
-* (R^2) and adjusted (R^2).
+* *F*-tests;
+* *R*² and adjusted *R*².
 
 For nonlinear regression, the notebook also introduces the use of numerical optimisation and Jacobian matrices for estimating parameter uncertainty.
 
@@ -51,15 +51,15 @@ For nonlinear regression, the notebook also introduces the use of numerical opti
 
 This notebook applies linear regression to the estimation of two virial parameters from experimental osmotic-pressure data.
 
-It demonstrates how to:
+It shows how to
 
-* rewrite a theoretical relationship in linear matrix form;
-* construct a regression design matrix;
-* estimate parameters using the normal equations;
+* rewrite a theoretical relationship into a linear matrix form;
+* construct design matrix for regression;
+* estimate parameters using the regression equations;
 * calculate residuals and model standard deviation;
 * construct confidence intervals for the estimated parameters;
-* calculate SSR, SSE, TSS, and (R^2);
-* assess overall model significance with an F-test;
+* calculate SSR, SSE, TSS, and *R*²;
+* assess overall model significance with an *F*-test;
 * examine residual normality and residual patterns;
 * remove a potential outlier and refit the model.
 
@@ -74,7 +74,7 @@ It demonstrates two approaches to nonlinear least squares:
 1. minimising the sum of squared residuals with `scipy.optimize.minimize` and the Nelder–Mead method;
 2. fitting the model directly with `scipy.optimize.curve_fit`.
 
-The notebook also demonstrates how to:
+The notebook shows how to
 
 * define a nonlinear model and objective function;
 * select initial parameter estimates;
@@ -82,15 +82,15 @@ The notebook also demonstrates how to:
 * construct a Jacobian matrix;
 * calculate residuals and model standard deviation;
 * approximate the parameter covariance matrix;
-* construct confidence intervals for nonlinear-model parameters.
+* construct confidence intervals for the nonlinear model parameters.
 
 ### 4.2.3 Factorial Design Example
 
 [`Section 4.2.3_ Factorial Design Example.ipynb`](Section%204.2.3_%20Factorial%20Design%20Example.ipynb)
 
-This notebook analyses a (2^4) factorial experiment for a distillation column.
+This notebook analyses a 2⁴-factorial experiment for a distillation column.
 
-The four investigated factors are:
+The four factors that have been considered are
 
 * reboiler duty;
 * feed temperature;
@@ -99,16 +99,16 @@ The four investigated factors are:
 
 The response is the purity of the overhead product.
 
-The notebook demonstrates how to:
+The notebook shows how to
 
 * represent experimental factor levels in coded form;
-* construct a full factorial regression matrix;
+* construct a full-factorial regression matrix;
 * include main effects and two-, three-, and four-factor interactions;
 * estimate all regression coefficients;
 * use a normal probability plot to identify important effects;
 * construct a reduced regression model;
-* calculate the contribution of individual model terms;
-* use F-tests to determine which coefficients are statistically significant.
+* calculate the contribution of the individual model terms;
+* use *F*-tests to determine which coefficients are statistically significant.
 
 ## Running the Notebooks
 
