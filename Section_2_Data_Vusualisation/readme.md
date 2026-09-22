@@ -2,7 +2,7 @@
 
 This section introduces descriptive statistics and data visualisation in Python using **NumPy**, **SciPy**, **pandas**, and **Matplotlib**.
 
-The first notebook provides a summary of commonly used statistical functions and plotting methods, including their MATLAB equivalents. The second notebook applies these methods to an experimental dataset containing Reynolds number and friction factor measurements.
+The first notebook provides a summary of commonly used statistical functions and plotting methods, including their MATLAB equivalents. The second notebook applies these methods to an experimental dataset containing Reynolds numbers and friction factors.
 
 ## Topics Covered
 
@@ -17,7 +17,7 @@ The first notebook provides a summary of commonly used statistical functions and
 * Creating heatmaps, logarithmic plots, 3D plots, and polar plots
 * Creating normal probability plots with `scipy.stats.probplot`
 * Loading experimental data from an Excel file with pandas
-* Processing multi-level column headers
+* Processing multilevel column headers
 * Calculating statistics for individual experimental runs
 * Comparing measured friction factors with a theoretical relationship
 
@@ -27,13 +27,13 @@ The first notebook provides a summary of commonly used statistical functions and
 
 [`Section_2_1_Summary_for_Descriptive_Statistics_and_Visualisation.ipynb`](Section_2_1_Summary_for_Descriptive_Statistics_and_Visualisation.ipynb)
 
-This notebook summarises the main Python functions used for descriptive statistics and demonstrates a range of basic and advanced visualisation methods using reproducible synthetic data.
+This notebook summarises the Python functions used for descriptive statistics and shows a wide range of basic and advanced visualisation methods using reproducible synthetic data.
 
 ### 2.2 Example of Descriptive Statistics and Visualisation
 
 [`Section_2_2_Example_for_Visualisation.ipynb`](Section_2_2_Example_for_Visualisation.ipynb)
 
-This notebook applies the statistical and visualisation workflow to Reynolds number and friction factor measurements from several experimental runs.
+This notebook applies the statistical and visualisation workflow to Reynolds numbers and friction factors from several experimental runs.
 
 ## Running the Notebooks
 
